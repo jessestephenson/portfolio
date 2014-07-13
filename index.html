@@ -1,13 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title></title>
-	<link type="text/css" rel="stylesheet" href="css/css/main.css">
-</head>
-<body>
-    <section>
-	  <aside>What is it about?</aside>
-	  <article>Neat is an open source semantic grid framework built on top of Sass and Bourbon&hellip;</article>
-	</section>
-</body>
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <!-- if you remove this meta tag, the NSA will spy on you through your Xbox Kinect camera -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+    <div data-magellan-expedition="fixed" class="header">
+    	<div class="row">
+		  <ul class="sub-nav">
+		    <li data-magellan-arrival="jesse"><a href="#jesse">Jesse</a></li>
+		    <li data-magellan-arrival="profile"><a href="#profile">Profile</a></li>
+		    <li data-magellan-arrival="work"><a href="#work">Work</a></li>
+		    <li data-magellan-arrival="skills"><a href="#skills">Skills</a></li>
+		    <li data-magellan-arrival="contact"><a href="#contact">Contact</a></li>
+		  </ul>
+    	</div>
+	</div>
+	<span data-magellan-destination="jesse"></span>
+	<div class="row">
+	    <ul class="side-nav">
+		  <li><a href="#">Link 1</a></li>
+		  <li><a href="#">Link 2</a></li>
+		  <li><a href="#">Link 3</a></li>
+		  <li><a href="#">Link 4</a></li>
+		</ul>
+		
+		<a name="jesse"></a>
+		<h1>Jesse</h1>
+	</div>
+	<div class="space">
+	</div>
+	
+	<a name="contact" data-magellan-destination="contact"></a>
+	<h1 >Contact</h1>
+	
+	
+	<div class="space">
+	</div>
+	
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script>
+    	$(document).foundation();
+	</script>
+  </body>
+
 </html>

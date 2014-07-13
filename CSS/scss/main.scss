@@ -1,8 +1,0 @@
-@import "bourbon";
-
-$mobile: new-breakpoint(max-width 800px 4);
-
-body {
-	height: 1000px;
-	@include background(linear-gradient(#fb5050, #84bfff) left no-repeat);
-}
