@@ -1,0 +1,16 @@
+@import "../../components/stylesheets/bootstrap.scss";
+
+body {
+	height: 1000px;
+	@include gradient-vertical (#ddd, #333);
+	position: relative;
+}
+
+#high {
+	height: 1000px;
+	background: linear-gradient(red, blue);
+}
+
+a {
+  transition: transform 1s;
+}
