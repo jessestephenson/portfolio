@@ -1,28 +1,69 @@
 @import "combine.scss";
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400");
 
-nav.navbar {
-	background: rgba(51,51,51,0.95);
-	-moz-box-shadow:    0px 2px 3px 0px rgba(0,0,0,0.16), 0px 3px 3px 0px rgba(0,0,0,0.23);
-	box-shadow:         0px 2px 3px 0px rgba(0,0,0,0.16), 0px 3px 3px 0px rgba(0,0,0,0.23);
-	border: none;
-	li { 
-		font-size: 20px;
-		a {
+//Variables
+$lato: lato, "helvetica neue", arial, sans;
+$blue: #4A90E2;
+$red: #E1384E;
+$white: rgba(255,255,255,0.87);
+$black: rgba(0,0,0,0.87);
+$grey: #333;
+
+nav.st-menu {
+	background: #333;
+	height: 300px;
+	border-bottom-right-radius: 4px;
+	ul {
+		margin-top: 30px;
+		li a {
+			font-size: 20px;
 			font-weight: 300;
+			font-family: $lato;
+			padding: 12px;
+			padding-left: 30px;
+			color: $white;
+			text-decoration: none;
+			box-shadow: inset 0 -1px rgba(255,255,255,0.2);
 			&:hover {
-				color: #4A90E2;
+				background: rgba(255,255,255,0.2);
 			}
 		}
-		&.active {
-			border-bottom: 2px solid #4A90E2;
+		li:first-child a {
+			box-shadow: inset 0 -1px rgba(255,255,255,0.2), inset 0 1px rgba(255,255,255,0.2);
 		}
-		&:hover {
-			background: rgba(255,255,255,0.2);
-		}
-	}	
-	
+		
+	}
 }
 
-
+button#trigger-slide {
+	height: 54px;
+	width: 62px;
+	background: $grey;
+	border: none;
+	outline: none;
+	position: fixed;
+	z-index: 9999;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	transition: 0.2s;
+	&:hover {
+		background: #5C5C5C;
+	}
+	@media (min-width: 481px) {
+		display: none;
+	}
+	span {
+		display: block;
+		height: 7px;
+		width: 52px;
+		background: $white;
+		margin-bottom: 7px;
+		position: relative;
+		border-radius: 1px;
+		top: 3px;
+		right: 6px;
+		
+	}
+}
 
 //@import "../../components/stylesheets/bootstrap.scss";

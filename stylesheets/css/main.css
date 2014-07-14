@@ -1,4 +1,5 @@
 @import url(../../sidebar/sidebar.css);
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400");
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, /Users/JesseS/Desktop/Portfolio/site/components/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -187,24 +188,60 @@ table {
 td, th {
   padding: 0; }
 
-/* line 3, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
-nav.navbar {
-  background: rgba(51, 51, 51, 0.95);
-  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16), 0px 3px 3px 0px rgba(0, 0, 0, 0.23);
-  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16), 0px 3px 3px 0px rgba(0, 0, 0, 0.23);
-  border: none; }
-  /* line 8, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
-  nav.navbar li {
-    font-size: 20px; }
-    /* line 10, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
-    nav.navbar li a {
-      font-weight: 300; }
-      /* line 12, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
-      nav.navbar li a:hover {
-        color: #4A90E2; }
-    /* line 16, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
-    nav.navbar li.active {
-      border-bottom: 2px solid #4A90E2; }
-    /* line 19, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
-    nav.navbar li:hover {
-      background: rgba(255, 255, 255, 0.2); }
+/* line 12, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+nav.st-menu {
+  background: #333;
+  height: 300px;
+  border-bottom-right-radius: 4px; }
+  /* line 16, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  nav.st-menu ul {
+    margin-top: 30px; }
+    /* line 18, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    nav.st-menu ul li a {
+      font-size: 20px;
+      font-weight: 300;
+      font-family: lato, "helvetica neue", arial, sans;
+      padding: 12px;
+      padding-left: 30px;
+      color: rgba(255, 255, 255, 0.87);
+      text-decoration: none;
+      -webkit-box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2);
+      box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2); }
+      /* line 27, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+      nav.st-menu ul li a:hover {
+        background: rgba(255, 255, 255, 0.2); }
+    /* line 31, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    nav.st-menu ul li:first-child a {
+      -webkit-box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2), inset 0 1px rgba(255, 255, 255, 0.2);
+      box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2), inset 0 1px rgba(255, 255, 255, 0.2); }
+
+/* line 38, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+button#trigger-slide {
+  height: 54px;
+  width: 62px;
+  background: #333;
+  border: none;
+  outline: none;
+  position: fixed;
+  z-index: 9999;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  /* line 49, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  button#trigger-slide:hover {
+    background: #5C5C5C; }
+  @media (min-width: 481px) {
+    button#trigger-slide {
+      display: none; } }
+  /* line 55, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  button#trigger-slide span {
+    display: block;
+    height: 7px;
+    width: 52px;
+    background: rgba(255, 255, 255, 0.87);
+    margin-bottom: 7px;
+    position: relative;
+    border-radius: 1px;
+    top: 3px;
+    right: 6px; }
