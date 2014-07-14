@@ -1,16 +1,28 @@
-@import "../../components/stylesheets/bootstrap.scss";
+@import "combine.scss";
 
-body {
-	height: 1000px;
-	@include gradient-vertical (#ddd, #333);
-	position: relative;
+nav.navbar {
+	background: rgba(51,51,51,0.95);
+	-moz-box-shadow:    0px 2px 3px 0px rgba(0,0,0,0.16), 0px 3px 3px 0px rgba(0,0,0,0.23);
+	box-shadow:         0px 2px 3px 0px rgba(0,0,0,0.16), 0px 3px 3px 0px rgba(0,0,0,0.23);
+	border: none;
+	li { 
+		font-size: 20px;
+		a {
+			font-weight: 300;
+			&:hover {
+				color: #4A90E2;
+			}
+		}
+		&.active {
+			border-bottom: 2px solid #4A90E2;
+		}
+		&:hover {
+			background: rgba(255,255,255,0.2);
+		}
+	}	
+	
 }
 
-#high {
-	height: 1000px;
-	background: linear-gradient(red, blue);
-}
 
-a {
-  transition: transform 1s;
-}
+
+//@import "../../components/stylesheets/bootstrap.scss";

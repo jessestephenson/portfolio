@@ -1,0 +1,33 @@
+doctype html
+html(class='no-js', lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		title Portfolio
+		link(rel='stylesheet', href='stylesheets/css/main.css')
+
+	body(data-spy='scroll', data-target='#spying')
+		nav(id='spying', class='navbar navbar-default navbar-fixed-top' role='navigation')
+			div(class='container-fluid')
+				div(class='navbar-header')
+					button(type='button', class='navbar-toggle', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+						span(class='sr-only') Toggle Navigation
+						span(class='icon-bar')
+						span(class='icon-bar')
+						span(class='icon-bar')
+					a(class='navbar-brand', href='#') Brand
+
+				div(class='collapse navbar-collapse', id='bs-example-navbar-collapse-1')
+					ul(class='nav navbar-nav')
+						li(class='active')
+							a(href='#spy2') Link
+						li
+							a(href='#spy') Link
+
+		h1(id='spy') Testing
+		div(id='high')
+		h1(id='spy2') 
+		<div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div></div>
+		script(src="bower_components/jquery/dist/jquery.min.js")
+		script(src="components/javascripts/bootstrap.js")
+
