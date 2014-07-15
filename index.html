@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+	<head>
     <meta charset="utf-8" />
     <!-- if you remove this meta tag, the NSA will spy on you through your Xbox Kinect camera -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,50 +9,60 @@
   </head>
   <body>
   	<div id="st-container" class="st-container">
-		<!-- 	
-			menu is on top of push wrapper
-		-->		
-	<nav class="st-menu effect" id="menu-1">
-	    <div class="container">
-	      <ul>
-	        <li class="active"><a href="#">Jesse</a></li>
-	        <li><a href="#">Profile</a></li>
-	        <li><a href="#">Work</a></li>
-	        <li><a href="#">Skills</a></li>
-	        <li><a href="#">Contact</a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	</nav>
+			<!-- nav is on top of push wrapper	-->		
+		<nav class="st-menu effect" id="menu-1">
+			<div class="container">
+				<ul>
+					<li><a href="#">Jesse</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+			
+		</nav>
+			
+			<div class="btn">
+				  		<button data-effect="effect" id="trigger-slide">
+				  			<span class="icon-bar"></span>
+				  			<span class="icon-bar"></span>
+				  			<span class="icon-bar"></span>
+				  		</button>
+						</div>
+			
 
-<!-- content push wrapper -->
-	<div class="pusher">
-		<div class="content page1 container"><!-- this is the wrapper for the content -->
-			<div class="content-inner"><!-- extra div for emulating position:fixed of the menu -->
-			  	<button data-effect="effect" id="trigger-slide">
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				</button>
-			  
-			  <h1 id="spy">Testing</h1>
-			  
-			  
-			  <h1 id="spy2">Test2</h1>
-			</div><!-- /content-inner -->
-		</div><!-- /content -->
-	</div><!-- /pusher -->
-</div><!-- /st-container -->
-    
+			<!-- content push wrapper -->
+			<div class="pusher">
+				<div class="content page1"><!-- this is the wrapper for the content -->
+					<div class="content-inner"><!-- extra div for emulating position:fixed of the menu -->
+						
+						
+						<header>
+							<span class='hi'>Hi.</span><br />
+							<span class='jesse'>I'm Jesse.</span><br />
+							<span class='make'>I make things.</span><br />
+							<span class='websites'>Like websites.</span><br />
+							<a href='#'><img src="images/arrow_down.svg" alt="arrow pointing down" /></a>
+						</header>
+						
+						<div class="container profile">
+							<h2>Profile<span class="red">.</span></h2>
+							<p>Hi.  I'm Jesse Stephenson, a 25 year old student currently in my last year of university (yay!).  I have learnt many things during my studies, including discovering what I want to do.  Design and Make websites.  Not just any websites though.  Websites that are easy to view, convey their information well, and relax the person viewing them.</p>
+							<p><span class="hl">I have a passion for making beautiful things that help people.</span>  Web design allows me do this.  I can craft a website that gives the viewer what they are looking for, and conveys the message the client is trying to send.  I have found no better way of creatively helping others than through web design.</p>
+							<p>I really enjoy the creative experience that goes with making a website.  From the hand drawn sketch, to the fullsize mock up , through to the final execution in code, all of these stages are interesting and hold their own individual appeal.  And the interaction with the customer to help them realise their goal is fantastic.</p>
+							<p><span class="hl">That is why I make websites.</span></p>
+						</div>
+						
+					</div><!-- /content-inner -->
+				</div><!-- /content -->
+			</div><!-- /pusher -->
+		</div><!-- /st-container -->
 
-
-
-
-
-	<script src="sidebar/classie.js"></script>
+	<script src="sidebar/classie.js"></script> 
 	<script src="sidebar/sidebarEffects.js"></script>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<!--<script src="components/javascripts/bootstrap.js"></script>-->
 	<script src="components/javascripts/bootstrap/scrollspy.js"></script>
 	</body>
-
 </html>

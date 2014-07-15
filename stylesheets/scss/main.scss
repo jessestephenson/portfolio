@@ -1,26 +1,61 @@
 @import "combine.scss";
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400");
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("http://fonts.googleapis.com/css?family=Lora:400,700");
 
 //Variables
-$lato: lato, "helvetica neue", arial, sans;
+$sans: 'lato', 'roboto', 'helvetica neue', arial, sans-serif;
+$serif: lora, "iowan old style", "times new roman", serif;
 $blue: #4A90E2;
 $red: #E1384E;
 $white: rgba(255,255,255,0.87);
 $black: rgba(0,0,0,0.87);
 $grey: #333;
 
+@mixin section-pad {
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+html {
+	text-align: center;
+	font-size: 16px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	font-family: $sans;
+}
+
+h2 {
+	font-size: 3.2em;
+	span.red {
+		color: $red;
+		font-weight: bold;
+	}
+}
+
+p {
+	color: $black;
+	font-size: 1.25em;
+	font-weight: 400;
+	font-family: $serif;
+}
+
 nav.st-menu {
 	background: #333;
-	height: 300px;
 	border-bottom-right-radius: 4px;
 	ul {
-		margin-top: 30px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: right;
+		
 		li a {
 			font-size: 20px;
 			font-weight: 300;
-			font-family: $lato;
+			font-family: $sans;
 			padding: 12px;
-			padding-left: 30px;
+			padding-right: 40px;
 			color: $white;
 			text-decoration: none;
 			box-shadow: inset 0 -1px rgba(255,255,255,0.2);
@@ -35,14 +70,18 @@ nav.st-menu {
 	}
 }
 
+div.btn {
+	text-align: left;
+}
 button#trigger-slide {
 	height: 54px;
-	width: 62px;
+	width: 58px;
 	background: $grey;
 	border: none;
 	outline: none;
+	margin-top: 20px;
 	position: fixed;
-	z-index: 9999;
+	z-index: 999;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	transition: 0.2s;
@@ -55,15 +94,102 @@ button#trigger-slide {
 	span {
 		display: block;
 		height: 7px;
-		width: 52px;
+		width: 48px;
 		background: $white;
 		margin-bottom: 7px;
 		position: relative;
 		border-radius: 1px;
-		top: 3px;
+		top: 4px;
 		right: 6px;
 		
 	}
 }
+
+header {
+	background: $grey;
+	color: $white;
+	font-family: $sans;
+	font-weight: 300;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+	span {
+		&.hi {
+			font-size: 6em;
+		}
+		&.jesse {
+			font-size: 4.5em;
+			display: block;
+			padding: 0.25rem;
+			background: rgba(255,36,65,0.5);
+		}
+		&.make {
+			font-size: 2.9em;
+		}
+		&.websites {
+			display: inline-block;
+			font-size: 2.4em;
+			margin-top: 0.3em;
+			margin-bottom: 45px;
+		}
+	}
+	img {
+		height: 60px;
+		width: 60px;
+	}
+}
+
+div.profile {
+	@include section-pad;
+	p {
+		hyphens: none;
+		.hl {
+			background: $red;
+			color: $white;
+			padding-left: 0.2em;
+			padding-right: 0.2em;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //@import "../../components/stylesheets/bootstrap.scss";

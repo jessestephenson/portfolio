@@ -1,0 +1,10 @@
+//Mobile Gris Settings
+
+//Container for content
+.container {
+	//Size of container for mobile devices
+	@media (max-width:480px) {
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+}
