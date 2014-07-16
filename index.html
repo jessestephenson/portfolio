@@ -2,7 +2,6 @@
 <html lang="en">
 	<head>
     <meta charset="utf-8" />
-    <!-- if you remove this meta tag, the NSA will spy on you through your Xbox Kinect camera -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheets/css/main.css" />
@@ -10,34 +9,30 @@
   <body>
   	<div id="st-container" class="st-container">
 			<!-- nav is on top of push wrapper	-->		
-		<nav class="st-menu effect" id="menu-1">
-			<div class="container">
-				<ul>
-					<li><a href="#">Jesse</a></li>
-					<li><a href="#">Profile</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-			
-		</nav>
+			<nav class="st-menu effect" id="menu-1">
+				<div class="container">
+					<ul>
+						<li><a href="#">Jesse</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Work</a></li>
+						<li><a href="#">Skills</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
 			
 			<div class="btn">
-				  		<button data-effect="effect" id="trigger-slide">
-				  			<span class="icon-bar"></span>
-				  			<span class="icon-bar"></span>
-				  			<span class="icon-bar"></span>
-				  		</button>
-						</div>
+				<button data-effect="effect" id="trigger-slide">
+				  <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
 			
-
 			<!-- content push wrapper -->
 			<div class="pusher">
 				<div class="content page1"><!-- this is the wrapper for the content -->
 					<div class="content-inner"><!-- extra div for emulating position:fixed of the menu -->
-						
-						
 						<header>
 							<span class='hi'>Hi.</span><br />
 							<span class='jesse'>I'm Jesse.</span><br />
@@ -53,16 +48,62 @@
 							<p>I really enjoy the creative experience that goes with making a website.  From the hand drawn sketch, to the fullsize mock up , through to the final execution in code, all of these stages are interesting and hold their own individual appeal.  And the interaction with the customer to help them realise their goal is fantastic.</p>
 							<p><span class="hl">That is why I make websites.</span></p>
 						</div>
+						<!-- end profile -->
 						
+						<div class="work">
+							<div class="container">
+								<h2>Work<span class="red">.</span></h2>
+								<div class="row">
+									<div class="lg-3">
+										<img src="images/mp_small.jpg" alt="Matt Powers">
+										<h3>Matt Powers</h3>
+										<a href="#"><button>View Site</button></a>
+										<p>This is a recently finished website built on the Bootstrap 3 framework. It was originally developed as a teaching aid for a Victoria University course I was teaching, to showcase what students could achieve with basic HTML and CSS.  It was then redesigned as the responsive website seen today.</p>
+									</div>
+									<!-- end lg-3 -->
+									<div class="lg-3 side">
+										<img src="images/side_small.png" alt="Sidebar">
+										<h3>Sidebar</h3>
+										<a href="#"><button>View Site</button></a>
+										<p>A very simple website, Sidebar was developed to test out the Codrops sidebar JavaScript.  This test was focused on achieving good performance on mobile and desktop, as well as increasing skill in an area often used on projects.  Photos courtesy of <a href="http://unsplash.com">Unsplash</a>.</p>
+									</div>
+									<!-- end lg-3 -->
+									<div class="lg-3 zodiac">
+										<img src="images/cz.png" alt="Sidebar">
+										<h3>Chinese Zodiac</h3>
+										<a href="#"><button>View Site</button></a>
+										<p>This was developed as an assignment for a 300 level Victoria University course specialising in advanced web development.  Built using HTML, CSS, PHP, and a MySQL database this website showcases ability in all these skill areas.  Chinese Zodiac was given a mark of A+ (100%), a perfect grade.</p>
+									</div>
+									<!-- end lg-3 -->
+								</div> 
+								<!-- end row -->
+							</div>
+							<!-- end container -->
+						</div>
+						<!-- end work -->
+						
+						<div class="container skills">
+							<h2>Skills<span class="red">.</span></h2>
+							<div class="skill-bar">
+								<span></span>
+							</div>
+						</div>
+						<!-- end skills -->
 					</div><!-- /content-inner -->
 				</div><!-- /content -->
 			</div><!-- /pusher -->
 		</div><!-- /st-container -->
-
-	<script src="sidebar/classie.js"></script> 
+	<script src="sidebar/modernizr.custom.js"></script>
+	<script src="sidebar/classie.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="sidebar/sidebarEffects.js"></script>
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<!--<script src="components/javascripts/bootstrap.js"></script>-->
-	<script src="components/javascripts/bootstrap/scrollspy.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script>
+    $(document).ready(function() {
+    	$('.skills').waypoint(function() {
+				$('.skill-bar>span').toggleClass('fifty');
+				}, {offset: '90%'});
+    });
+    </script>
 	</body>
 </html>

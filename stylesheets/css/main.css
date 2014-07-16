@@ -95,7 +95,7 @@ figure {
 hr {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+          box-sizing: content-box;
   height: 0; }
 
 /* line 219, /Users/JesseS/Desktop/Portfolio/site/components/stylesheets/bootstrap/_normalize.scss */
@@ -142,8 +142,8 @@ input {
 /* line 333, /Users/JesseS/Desktop/Portfolio/site/components/stylesheets/bootstrap/_normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0; }
 
 /* line 345, /Users/JesseS/Desktop/Portfolio/site/components/stylesheets/bootstrap/_normalize.scss */
@@ -193,42 +193,63 @@ td, th {
   .container {
     padding-left: 22px;
     padding-right: 22px; } }
+/* line 10, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/grid.scss */
+.container .lg-3 {
+  width: 100%; }
 
-/* line 19, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 48, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 html {
   text-align: center;
   font-size: 16px; }
 
-/* line 25, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 54, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-family: 'lato', 'roboto', 'helvetica neue', arial, sans-serif; }
 
-/* line 30, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 59, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 h2 {
   font-size: 3.2em; }
-  /* line 32, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  /* line 61, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   h2 span.red {
     color: #E1384E;
     font-weight: bold; }
 
-/* line 38, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 67, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+h3 {
+  font-size: 2.9em; }
+
+/* line 71, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 p {
   color: rgba(0, 0, 0, 0.87);
   font-size: 1.25em;
   font-weight: 400;
   font-family: lora, "iowan old style", "times new roman", serif; }
 
-/* line 45, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 78, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+a {
+  color: #4A90E2;
+  border-bottom: 2px solid #4A90E2;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+  border-radius: 2px; }
+  /* line 84, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  a:hover {
+    color: #1b5eab;
+    border-bottom: 2px solid #1b5eab;
+    background: #cee1f7; }
+
+/* line 92, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 nav.st-menu {
   background: #333;
   border-bottom-right-radius: 4px; }
-  /* line 48, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  /* line 95, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   nav.st-menu ul {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: right; }
-    /* line 53, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    /* line 100, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
     nav.st-menu ul li a {
       font-size: 20px;
       font-weight: 300;
@@ -238,23 +259,23 @@ nav.st-menu {
       color: rgba(255, 255, 255, 0.87);
       text-decoration: none;
       -webkit-box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2);
-      box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2); }
-      /* line 62, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+              box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2); }
+      /* line 109, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
       nav.st-menu ul li a:hover {
         background: rgba(255, 255, 255, 0.2); }
-    /* line 66, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    /* line 113, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
     nav.st-menu ul li:first-child a {
       -webkit-box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2), inset 0 1px rgba(255, 255, 255, 0.2);
-      box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2), inset 0 1px rgba(255, 255, 255, 0.2); }
+              box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2), inset 0 1px rgba(255, 255, 255, 0.2); }
 
-/* line 73, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 120, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 div.btn {
   text-align: left; }
 
-/* line 76, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 123, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 button#trigger-slide {
   height: 54px;
-  width: 58px;
+  width: 48px;
   background: #333;
   border: none;
   outline: none;
@@ -263,19 +284,19 @@ button#trigger-slide {
   z-index: 999;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s; }
-  /* line 88, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s; }
+  /* line 135, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   button#trigger-slide:hover {
     background: #5C5C5C; }
   @media (min-width: 481px) {
     button#trigger-slide {
       display: none; } }
-  /* line 94, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  /* line 141, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   button#trigger-slide span {
     display: block;
     height: 7px;
-    width: 48px;
+    width: 38px;
     background: rgba(255, 255, 255, 0.87);
     margin-bottom: 7px;
     position: relative;
@@ -283,7 +304,7 @@ button#trigger-slide {
     top: 4px;
     right: 6px; }
 
-/* line 108, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 155, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 header {
   background: #333;
   color: rgba(255, 255, 255, 0.87);
@@ -292,42 +313,123 @@ header {
   padding-top: 60px;
   padding-bottom: 40px;
   text-align: center; }
-  /* line 117, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  /* line 164, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   header span.hi {
     font-size: 6em; }
-  /* line 120, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  /* line 167, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   header span.jesse {
     font-size: 4.5em;
     display: block;
     padding: 0.25rem;
     background: rgba(255, 36, 65, 0.5); }
-  /* line 126, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  /* line 173, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   header span.make {
     font-size: 2.9em; }
-  /* line 129, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  /* line 176, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   header span.websites {
     display: inline-block;
     font-size: 2.4em;
     margin-top: 0.3em;
     margin-bottom: 45px; }
-  /* line 136, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
-  header img {
+  /* line 183, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  header a {
+    display: inline-block;
+    border-radius: 50%;
     height: 60px;
     width: 60px; }
+    /* line 188, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    header a:hover {
+      background: rgba(255, 255, 255, 0.1); }
+    /* line 191, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    header a img {
+      height: 60px;
+      width: 60px; }
 
-/* line 142, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+/* line 198, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
 div.profile {
   padding-top: 10px;
-  padding-bottom: 40px; }
-  /* line 144, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  padding-bottom: 40px;
+  border-bottom: 1px solid #979797; }
+  /* line 200, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
   div.profile p {
     -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none; }
-    /* line 146, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+       -moz-hyphens: none;
+        -ms-hyphens: none;
+            hyphens: none; }
+    /* line 202, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
     div.profile p .hl {
       background: #E1384E;
       color: rgba(255, 255, 255, 0.87);
       padding-left: 0.2em;
       padding-right: 0.2em; }
+
+/* line 211, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+div.work {
+  background: rgba(255, 56, 78, 0.1);
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #979797; }
+  /* line 214, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  div.work div.lg-3 {
+    border: 2px solid #333;
+    border-radius: 4px;
+    background: #fff; }
+    /* line 218, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    div.work div.lg-3 img {
+      width: 100%; }
+    /* line 221, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    div.work div.lg-3 h3 {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    /* line 225, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    div.work div.lg-3 button {
+      border-radius: 6px;
+      border: 1px solid #4A90E2;
+      background: #fff;
+      font-family: lora, "iowan old style", "times new roman", serif;
+      font-size: 2.2em;
+      color: #4A90E2;
+      padding-left: 1em;
+      padding-right: 1em;
+      -webkit-transition: all 0.2s;
+              transition: all 0.2s; }
+      /* line 35, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+      div.work div.lg-3 button:hover {
+        color: #1b5eab;
+        border: 1px solid #1b5eab;
+        background: #cee1f7; }
+    /* line 228, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    div.work div.lg-3 p {
+      margin-left: 10px;
+      margin-right: 10px; }
+  /* line 233, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  div.work div.side {
+    margin-top: 20px; }
+  /* line 236, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  div.work div.zodiac {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+
+/* line 242, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+div.skills {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #979797; }
+  /* line 244, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+  div.skills .skill-bar {
+    height: 10px;
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 5px; }
+    /* line 249, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+    div.skills .skill-bar span {
+      display: block;
+      height: 100%;
+      width: 0;
+      background: #E1384E;
+      border-radius: 5px;
+      -webkit-transition: 2s;
+              transition: 2s; }
+      /* line 256, /Users/JesseS/Desktop/Portfolio/site/stylesheets/scss/main.scss */
+      div.skills .skill-bar span.fifty {
+        width: 50%; }
