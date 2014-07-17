@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="stylesheets/css/main.css" />
   </head>
   <body>
-  	<div id="st-container" class="st-container">
 			<!-- nav is on top of push wrapper	-->		
-			<nav class="st-menu effect" id="menu-1">
+			<nav class="nav">
 				<div class="container">
 					<ul>
 						<li><a href="#">Jesse</a></li>
-						<li><a href="#">Profile</a></li>
+						<li><a href="#profile">Profile</a></li>
 						<li><a href="#">Work</a></li>
 						<li><a href="#">Skills</a></li>
 						<li><a href="#">Contact</a></li>
@@ -28,29 +27,26 @@
 					<span class="icon-bar"></span>
 				</button>
 			</div>
-			
-			<!-- content push wrapper -->
-			<div class="pusher">
-				<div class="content page1"><!-- this is the wrapper for the content -->
-					<div class="content-inner"><!-- extra div for emulating position:fixed of the menu -->
-						<header>
-							<span class='hi'>Hi.</span><br />
-							<span class='jesse'>I'm Jesse.</span><br />
-							<span class='make'>I make things.</span><br />
-							<span class='websites'>Like websites.</span><br />
-							<a href='#'><img src="images/arrow_down.svg" alt="arrow pointing down" /></a>
-						</header>
+
+			<header>
+				<span class='hi'>Hi.</span><br />
+				<span class='jesse'>I'm Jesse.</span><br />
+				<span class='make'>I make things.</span><br />
+				<span class='websites'>Like websites.</span><br />
+				<a href='#'><img src="images/arrow_down.svg" alt="arrow pointing down" /></a>
+			</header>
 						
-						<div class="container profile">
+			<div class="container profile">
+				<a name="profile"></a>
 							<h2>Profile<span class="red">.</span></h2>
 							<p>Hi.  I'm Jesse Stephenson, a 25 year old student currently in my last year of university (yay!).  I have learnt many things during my studies, including discovering what I want to do.  Design and Make websites.  Not just any websites though.  Websites that are easy to view, convey their information well, and relax the person viewing them.</p>
 							<p><span class="hl">I have a passion for making beautiful things that help people.</span>  Web design allows me do this.  I can craft a website that gives the viewer what they are looking for, and conveys the message the client is trying to send.  I have found no better way of creatively helping others than through web design.</p>
 							<p>I really enjoy the creative experience that goes with making a website.  From the hand drawn sketch, to the fullsize mock up , through to the final execution in code, all of these stages are interesting and hold their own individual appeal.  And the interaction with the customer to help them realise their goal is fantastic.</p>
 							<p><span class="hl">That is why I make websites.</span></p>
 						</div>
-						<!-- end profile -->
-						
-						<div class="work">
+			<!-- end profile -->
+			
+			<div class="work">
 							<div class="container">
 								<h2>Work<span class="red">.</span></h2>
 								<div class="row">
@@ -80,29 +76,86 @@
 							</div>
 							<!-- end container -->
 						</div>
-						<!-- end work -->
-						
-						<div class="container skills">
-							<h2>Skills<span class="red">.</span></h2>
-							<div class="skill-bar">
-								<span></span>
-							</div>
-						</div>
-						<!-- end skills -->
-					</div><!-- /content-inner -->
-				</div><!-- /content -->
-			</div><!-- /pusher -->
-		</div><!-- /st-container -->
+			<!-- end work -->
+			
+			<div class="container skills">
+				<h2>Skills<span class="red">.</span></h2>
+				<h3>HTML</h3>
+				<div class="skill-bar">
+					<span></span>
+				</div>
+				<label>Novice</label>
+				<label>Adept</label>
+				<label>Master</label>
+				
+				<h3>CSS</h3>
+				<div class="skill-bar">
+					<span></span>
+				</div>
+				<label>Novice</label>
+				<label>Adept</label>
+				<label>Master</label>
+				
+				<h3>PHP</h3>
+				<div class="skill-bar">
+					<span></span>
+				</div>
+				<label>Novice</label>
+				<label>Adept</label>
+				<label>Master</label>
+				
+				<h3>MySQL</h3>
+				<div class="skill-bar">
+					<span></span>
+				</div>
+				<label>Novice</label>
+				<label>Adept</label>
+				<label>Master</label>
+				
+				<h3>JavaScript</h3>
+				<div class="skill-bar">
+					<span></span>
+				</div>
+				<label>Novice</label>
+				<label>Adept</label>
+				<label>Master</label>
+				
+				<h3>jQuery</h3>
+				<div class="skill-bar">
+					<span></span>
+				</div>
+				<label>Novice</label>
+				<label>Adept</label>
+				<label>Master</label>
+			</div>
+			<!-- end skills -->
+			
+			
+
 	<script src="sidebar/modernizr.custom.js"></script>
-	<script src="sidebar/classie.js"></script>
+	<!--<script src="sidebar/classie.js"></script>-->
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="sidebar/sidebarEffects.js"></script>
+	<!--<script src="sidebar/sidebarEffects.js"></script>-->
 	<script src="js/waypoints.min.js"></script>
 	<script>
     $(document).ready(function() {
     	$('.skills').waypoint(function() {
 				$('.skill-bar>span').toggleClass('fifty');
-				}, {offset: '90%'});
+				}, {offset: '90%'}
+			);
+				
+	    $('.btn').click(function() {
+		    $('.nav').toggleClass('open');
+	    });
+	    $('.nav').click(function() {
+	    	$('.nav').removeClass('open');
+	    });
+	    
+	    var agent = navigator.userAgent.toLowerCase().indexOf('android');
+	    if(agent > -1) {
+		    $('.nav').addClass('android');
+	    };
+
     });
     </script>
 	</body>
