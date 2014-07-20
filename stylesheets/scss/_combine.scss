@@ -2,7 +2,12 @@
 //@import "../../sidebar/sidebar.css";
 
 //Normalise CSS 
-@import "../../components/stylesheets/bootstrap/_normalize.scss";
+//@import "../../components/stylesheets/bootstrap/_normalize.scss";
+
+
 
 //Gird
-@import "grid.scss";
+//@import "grid.scss";
+
+//Bootstrap
+@import "../../components/stylesheets/bootstrap.scss";

@@ -1,13 +1,35 @@
 //Mobile Gris Settings
+$small: 480px;
+$med: 1024px;
+$large: 1200px;
+$x-large: 1201px;
+
 
 //Container for content
 .container {
 	//Size of container for mobile devices
-	@media (max-width:480px) {
+	@media (max-width:$small) {
 		padding-left: 22px;
 		padding-right: 22px;
 	}
 	.lg-3 {
 		width: 100%;
+	}
+}
+
+//Hidden things
+@media (max-width: $small) {
+	.hidden-sm {
+		display: none !important;
+		visibility: hidden !important;
+	}
+}
+
+
+//Showing things
+@media (min-width: $small+1) and (max-width: $med) {
+	.hidden-sm {
+		display: inline-block !important;
+		visibility: visible !important;
 	}
 }

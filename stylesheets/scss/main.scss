@@ -18,7 +18,7 @@ $grey: #333;
 
 //Mixins
 @mixin section-pad {
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 	border-bottom: 1px solid #979797;
 }
@@ -32,6 +32,7 @@ $grey: #333;
 	color: $blue;
 	padding-left: 1em;
 	padding-right: 1em;
+	margin-bottom: 1em;
 	transition: all 0.2s;
 	&:hover {
 		color: $darkblue;
@@ -83,6 +84,10 @@ h3 {
 	font-size: 2.9em;
 }
 
+h4 {
+	font-size: 2.5em;
+}
+
 p {
 	color: $black;
 	font-size: 1.25em;
@@ -101,7 +106,7 @@ p {
 
 //Not android
 .nav {
-	padding-top: 70px;
+	padding-top: 50px;
 	position: fixed;
 	display: block;
 	background: rgba(51,51,51,0.95);
@@ -122,7 +127,7 @@ p {
 			padding: 12px;
 			a {
 				font-weight: 300;
-				font-size: 2.2em;
+				font-size: 3em;
 				font-family: $sans;
 				color: $white;
 				text-decoration: none;
@@ -142,12 +147,12 @@ p {
 }
 	
 
-div.btn {
+div.nav-trigger {
 	text-align: left;
 }
 button#trigger-slide {
-	height: 54px;
-	width: 48px;
+	height: 57px;
+	width: 58px;
 	background: $grey;
 	border: none;
 	outline: none;
@@ -158,20 +163,22 @@ button#trigger-slide {
 	&:hover {
 		background: #5C5C5C;
 	}
-	@media (min-width: /*481px*/ 1024px) {
+	@media (min-width:1024px) {
 		display: none;
 	}
 	span {
 		display: block;
-		height: 7px;
-		width: 38px;
+		height: 5px;
+		width: 48px;
 		background: $white;
-		margin-bottom: 7px;
+		margin-bottom: 10px;
 		position: relative;
 		border-radius: 1px;
 		top: 4px;
 		right: 6px;
-		
+		&:nth-of-type(3) {
+			margin-bottom: 7px;
+		}
 	}
 }
 
@@ -231,10 +238,10 @@ div.profile {
 	}
 }
 
-div.work {
+.work {
 	background: $bgred;
 	@include section-pad;
-	div.lg-3 {
+	.mp, .side, .zodiac {
 		border: 2px solid $grey;
 		border-radius: 4px;
 		background: #fff;
@@ -253,7 +260,7 @@ div.work {
 			margin-right: 10px;
 		}
 	}
-	div.side {
+	.side {
 		margin-top: 20px;
 		a {
 			@include link;
@@ -267,7 +274,7 @@ div.work {
 
 div.skills {
 	@include section-pad;
-	h3 {
+	h4 {
 		text-align: left;
 		margin-bottom: 0.2125em;
 	}
@@ -294,10 +301,112 @@ div.skills {
 	label {
 		font-size: 1.5em;
 		font-family: $serif;
+		font-weight: 400;
 		color: lighten($grey, 20%);
 		display: inline-block;
 		margin-top: 0.625em;
-		@include padding-lr(0.6em,0.6em);
+		@include padding-lr(1em,1em);
+	}
+}
+
+div.contact {
+	background: $bgred;
+	@include section-pad;
+	h2 {
+		margin-bottom: 25px;
+	}
+	img {
+		margin: 25px 0 10px;
+		height: 60px;
+	}
+	p {
+		margin: 20px 0 30px;
+		hyphens: none;
+		span {
+			&.sm-text {
+				font-size: 0.8em;
+				display: inline-block;
+			}
+		}
+	}
+	a {
+		@include link;
+	}
+	form {
+		text-align: left;
+		label {
+			font-size: 2em;
+			font-family: $serif;
+			font-weight: 300;
+			color: $black;
+		}
+		input {
+			border: none;
+			height: 2.5em;
+			width: 100%;
+			border-radius: 4px;
+			font-family: $serif;
+			color: $black;
+			transition: 0.2s;
+			padding-left: 0.6em;
+			outline: none;
+			font-size: 1.25em;
+			&:hover ,:active {
+				box-shadow: 0 2px 5px 0 rgba(51, 51, 51, 0.26), 0 2px 10px 0 rgba(51, 51, 51, 0.16);
+			}
+		}
+		button {
+			width: 70%;
+			margin: 10px 15%;
+			border: none;
+			border-radius: 4px;
+			background: $red;
+			font-family: $serif;
+			color: $white;
+			outline: none;
+			font-size: 2em;
+			text-transform: uppercase;
+			transition: 0.2s;
+			&:hover {
+				background: darken($red, 20%);
+			}
+		}
+		textarea {
+			width: 100%;
+			height: 6em;
+			border: none;
+			border-radius: 4px;
+			font-family: $serif;
+			color: $black;
+			transition: 0.2s;
+			padding-left: 0.6em;
+			padding-top: 0.5em;
+			outline: none;
+			font-size: 1.25em;
+			&:hover ,:active {
+				box-shadow: 0 2px 5px 0 rgba(51, 51, 51, 0.26), 0 2px 10px 0 rgba(51, 51, 51, 0.16);
+			}
+		}
+
+	}
+}
+
+footer {
+	background: #3b3b3b;
+	padding: 40px 0;
+	p {
+		color: $white;
+		margin-bottom: 25px;
+	}
+	button {
+		border: 1px solid $white;
+		border-radius: 20px;
+		background: none;
+		color: $white;
+		font-family: $serif;
+		font-size: 1.6em;
+		font-weight: 300px;
+		padding: 0 0.6em;
 	}
 }
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="212px" height="300px" viewBox="0 0 212 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Paper@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Dark" sketch:type="MSArtboardGroup" transform="translate(-378.000000, -552.000000)">
+            <g id="Profile" sketch:type="MSLayerGroup" transform="translate(20.000000, 221.000000)">
+                <g id="Paper" transform="translate(358.000000, 331.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-36" stroke="#3B3B3B" stroke-width="4" fill="#FFFFFF" x="0" y="0" width="212" height="300" rx="14"></rect>
+                    <rect id="Rectangle-37" stroke="#E2374D" stroke-width="4" fill="#3B3B3B" x="29" y="28" width="154" height="102" rx="5"></rect>
+                    <path d="M22,149.5 L179.5,149.5" id="Line" stroke="#E2374D" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M21.5000842,255.5 L189.502914,255.5" id="Line-3" stroke="#E2374D" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M22,233.5 L181.5,233.5" id="Line-4" stroke="#E2374D" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M22,212.5 L163.5,212.5" id="Line-5" stroke="#E2374D" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M22,191.5 L171.5,191.5" id="Line-6" stroke="#E2374D" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M22,170.5 L149.5,170.5" id="Line-7" stroke="#E2374D" stroke-width="5" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

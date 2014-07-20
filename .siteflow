@@ -1,0 +1,1416 @@
+{
+  "id" : "EDB5F96A-BD7D-439E-950B-837C3B6A8CB5",
+  "javascriptIndentation" : 4,
+  "files" : {
+    "components\/stylesheets\/bootstrap\/_modals.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_modals.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "sidebar\/sidebarEffects.js" : {
+      "output" : "sidebar\/sidebarEffects.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/core.js" : {
+      "output" : "bower_components\/jquery\/src\/core.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_resize.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_resize.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_opacity.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_opacity.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "js\/bootstrap-sprockets-ck.js" : {
+      "output" : "js\/bootstrap-sprockets-ck.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_gradients.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_gradients.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/exports\/amd.js" : {
+      "output" : "bower_components\/jquery\/src\/exports\/amd.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/deprecated.js" : {
+      "output" : "bower_components\/jquery\/src\/deprecated.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_responsive-embed.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_responsive-embed.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_alerts.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_alerts.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/core\/parseHTML.js" : {
+      "output" : "bower_components\/jquery\/src\/core\/parseHTML.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_breadcrumbs.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_breadcrumbs.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/support.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/support.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "js\/waypoints.js" : {
+      "output" : "js\/waypoints.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/transition.js" : {
+      "output" : "components\/javascripts\/bootstrap\/transition.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax\/var\/nonce.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax\/var\/nonce.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_buttons.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_buttons.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/attributes\/attr.js" : {
+      "output" : "bower_components\/jquery\/src\/attributes\/attr.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_tab-focus.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_tab-focus.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/var\/cssExpand.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/var\/cssExpand.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_text-overflow.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_text-overflow.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/css\/bootstrap.css" : {
+      "output" : "components\/stylesheets\/css\/bootstrap.out.css"
+    },
+    "bower_components\/jquery\/src\/queue\/delay.js" : {
+      "output" : "bower_components\/jquery\/src\/queue\/delay.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_alerts.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_alerts.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/affix.js" : {
+      "output" : "components\/javascripts\/bootstrap\/affix.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_scaffolding.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_scaffolding.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/core\/var\/rsingleTag.js" : {
+      "output" : "bower_components\/jquery\/src\/core\/var\/rsingleTag.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/rnotwhite.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/rnotwhite.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_progress-bar.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_progress-bar.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax\/xhr.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax\/xhr.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/dist\/jquery.js" : {
+      "output" : "bower_components\/jquery\/dist\/jquery.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/tab.js" : {
+      "output" : "components\/javascripts\/bootstrap\/tab.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_grid.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_grid.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_component-animations.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_component-animations.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_grid-framework.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_grid-framework.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/data\/accepts.js" : {
+      "output" : "bower_components\/jquery\/src\/data\/accepts.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/event\/alias.js" : {
+      "output" : "bower_components\/jquery\/src\/event\/alias.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/effects\/animatedSelector.js" : {
+      "output" : "bower_components\/jquery\/src\/effects\/animatedSelector.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/outro.js" : {
+      "output" : "bower_components\/jquery\/src\/outro.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/attributes\/classes.js" : {
+      "output" : "bower_components\/jquery\/src\/attributes\/classes.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_normalize.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_normalize.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_nav-divider.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_nav-divider.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_tooltip.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_tooltip.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/core\/init.js" : {
+      "output" : "bower_components\/jquery\/src\/core\/init.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/selector-native.js" : {
+      "output" : "bower_components\/jquery\/src\/selector-native.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_pagination.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_pagination.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "sidebar\/sidebar.css" : {
+      "output" : "sidebar\/sidebar.out.css"
+    },
+    "bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js" : {
+      "output" : "bower_components\/jquery\/src\/sizzle\/dist\/sizzle.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/arr.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/arr.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/concat.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/concat.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/attributes\/prop.js" : {
+      "output" : "bower_components\/jquery\/src\/attributes\/prop.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "js\/waypoints.min.js" : {
+      "output" : "js\/waypoints.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_hide-text.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_hide-text.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/hasOwn.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/hasOwn.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_utilities.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_utilities.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_dropdowns.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_dropdowns.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/support.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/support.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/bootstrap.scss" : {
+      "imports" : [
+        "components\/stylesheets\/bootstrap\/_variables.scss",
+        "components\/stylesheets\/bootstrap\/_mixins.scss",
+        "components\/stylesheets\/bootstrap\/_normalize.scss",
+        "components\/stylesheets\/bootstrap\/_print.scss",
+        "components\/stylesheets\/bootstrap\/_glyphicons.scss",
+        "components\/stylesheets\/bootstrap\/_scaffolding.scss",
+        "components\/stylesheets\/bootstrap\/_code.scss",
+        "components\/stylesheets\/bootstrap\/_grid.scss",
+        "components\/stylesheets\/bootstrap\/_tables.scss",
+        "components\/stylesheets\/bootstrap\/_forms.scss",
+        "components\/stylesheets\/bootstrap\/_buttons.scss",
+        "components\/stylesheets\/bootstrap\/_utilities.scss",
+        "components\/stylesheets\/bootstrap\/_responsive-utilities.scss"
+      ],
+      "output" : "components\/stylesheets\/bootstrap\/bootstrap.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_glyphicons.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_glyphicons.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/alert.js" : {
+      "output" : "components\/javascripts\/bootstrap\/alert.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_jumbotron.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_jumbotron.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_navbar.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_navbar.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_grid.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_grid.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_type.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_type.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_panels.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_panels.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_responsive-visibility.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_responsive-visibility.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/core\/access.js" : {
+      "output" : "bower_components\/jquery\/src\/core\/access.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_carousel.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_carousel.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/attributes\/val.js" : {
+      "output" : "bower_components\/jquery\/src\/attributes\/val.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_forms.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_forms.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/pnum.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/pnum.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_button-groups.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_button-groups.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/traversing\/findFilter.js" : {
+      "output" : "bower_components\/jquery\/src\/traversing\/findFilter.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_border-radius.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_border-radius.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/manipulation.js" : {
+      "output" : "bower_components\/jquery\/src\/manipulation.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/data\/var\/data_user.js" : {
+      "output" : "bower_components\/jquery\/src\/data\/var\/data_user.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_navs.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_navs.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/traversing.js" : {
+      "output" : "bower_components\/jquery\/src\/traversing.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/effects\/Tween.js" : {
+      "output" : "bower_components\/jquery\/src\/effects\/Tween.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap-sprockets.js" : {
+      "output" : "components\/javascripts\/bootstrap-sprockets.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/data\/Data.js" : {
+      "output" : "bower_components\/jquery\/src\/data\/Data.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/effects.js" : {
+      "output" : "bower_components\/jquery\/src\/effects.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/serialize.js" : {
+      "output" : "bower_components\/jquery\/src\/serialize.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/offset.js" : {
+      "output" : "bower_components\/jquery\/src\/offset.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_media.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_media.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/deferred.js" : {
+      "output" : "bower_components\/jquery\/src\/deferred.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "js\/waypoint-init.js" : {
+      "output" : "js\/waypoint-init.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/button.js" : {
+      "output" : "components\/javascripts\/bootstrap\/button.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_labels.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_labels.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/dist\/jquery.min.js" : {
+      "output" : "bower_components\/jquery\/dist\/jquery.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax\/parseJSON.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax\/parseJSON.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/attributes\/support.js" : {
+      "output" : "bower_components\/jquery\/src\/attributes\/support.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_panels.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_panels.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/css\/bootstrap.css" : {
+      "output" : "components\/css\/bootstrap.out.css"
+    },
+    "components\/stylesheets\/bootstrap\/_variables.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_variables.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_responsive-utilities.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_responsive-utilities.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/selector.js" : {
+      "output" : "bower_components\/jquery\/src\/selector.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js" : {
+      "output" : "bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_vendor-prefixes.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_vendor-prefixes.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_reset-filter.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_reset-filter.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_nav-vertical-align.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_nav-vertical-align.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_forms.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_forms.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/dropdown.js" : {
+      "output" : "components\/javascripts\/bootstrap\/dropdown.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/toString.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/toString.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_input-groups.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_input-groups.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_badges.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_badges.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_print.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_print.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_image.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_image.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap.scss" : {
+      "imports" : [
+        "components\/stylesheets\/bootstrap\/_variables.scss",
+        "components\/stylesheets\/bootstrap\/_mixins.scss",
+        "components\/stylesheets\/bootstrap\/_normalize.scss",
+        "components\/stylesheets\/bootstrap\/_print.scss",
+        "components\/stylesheets\/bootstrap\/_glyphicons.scss",
+        "components\/stylesheets\/bootstrap\/_scaffolding.scss",
+        "components\/stylesheets\/bootstrap\/_type.scss",
+        "components\/stylesheets\/bootstrap\/_code.scss",
+        "components\/stylesheets\/bootstrap\/_grid.scss",
+        "components\/stylesheets\/bootstrap\/_tables.scss",
+        "components\/stylesheets\/bootstrap\/_forms.scss",
+        "components\/stylesheets\/bootstrap\/_buttons.scss",
+        "components\/stylesheets\/bootstrap\/_component-animations.scss",
+        "components\/stylesheets\/bootstrap\/_dropdowns.scss",
+        "components\/stylesheets\/bootstrap\/_button-groups.scss",
+        "components\/stylesheets\/bootstrap\/_input-groups.scss",
+        "components\/stylesheets\/bootstrap\/_navs.scss",
+        "components\/stylesheets\/bootstrap\/_navbar.scss",
+        "components\/stylesheets\/bootstrap\/_breadcrumbs.scss",
+        "components\/stylesheets\/bootstrap\/_pagination.scss",
+        "components\/stylesheets\/bootstrap\/_pager.scss",
+        "components\/stylesheets\/bootstrap\/_labels.scss",
+        "components\/stylesheets\/bootstrap\/_badges.scss",
+        "components\/stylesheets\/bootstrap\/_jumbotron.scss",
+        "components\/stylesheets\/bootstrap\/_thumbnails.scss",
+        "components\/stylesheets\/bootstrap\/_alerts.scss",
+        "components\/stylesheets\/bootstrap\/_progress-bars.scss",
+        "components\/stylesheets\/bootstrap\/_media.scss",
+        "components\/stylesheets\/bootstrap\/_list-group.scss",
+        "components\/stylesheets\/bootstrap\/_panels.scss",
+        "components\/stylesheets\/bootstrap\/_responsive-embed.scss",
+        "components\/stylesheets\/bootstrap\/_wells.scss",
+        "components\/stylesheets\/bootstrap\/_close.scss",
+        "components\/stylesheets\/bootstrap\/_modals.scss",
+        "components\/stylesheets\/bootstrap\/_tooltip.scss",
+        "components\/stylesheets\/bootstrap\/_popovers.scss",
+        "components\/stylesheets\/bootstrap\/_carousel.scss",
+        "components\/stylesheets\/bootstrap\/_utilities.scss",
+        "components\/stylesheets\/bootstrap\/_responsive-utilities.scss"
+      ],
+      "output" : "components\/stylesheets\/bootstrap.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "stylesheets\/css\/main.css" : {
+      "output" : "stylesheets\/css\/main.out.css"
+    },
+    "stylesheets\/scss\/_combine.scss" : {
+      "imports" : [
+        "components\/stylesheets\/bootstrap.scss"
+      ],
+      "output" : "stylesheets\/scss\/_combine.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/var\/isHidden.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/var\/isHidden.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/manipulation\/_evalUrl.js" : {
+      "output" : "bower_components\/jquery\/src\/manipulation\/_evalUrl.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_mixins.scss" : {
+      "imports" : [
+        "components\/stylesheets\/bootstrap\/mixins\/_hide-text.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_opacity.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_image.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_labels.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_reset-filter.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_resize.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_responsive-visibility.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_size.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_tab-focus.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_text-emphasis.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_text-overflow.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_vendor-prefixes.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_alerts.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_buttons.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_panels.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_pagination.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_list-group.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_nav-divider.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_forms.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_progress-bar.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_table-row.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_background-variant.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_border-radius.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_gradients.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_clearfix.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_center-block.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_nav-vertical-align.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_grid-framework.scss",
+        "components\/stylesheets\/bootstrap\/mixins\/_grid.scss"
+      ],
+      "output" : "components\/stylesheets\/bootstrap\/_mixins.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/selector-sizzle.js" : {
+      "output" : "bower_components\/jquery\/src\/selector-sizzle.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "stylesheets\/scss\/main.scss" : {
+      "imports" : [
+        "stylesheets\/scss\/_combine.scss"
+      ],
+      "output" : "stylesheets\/scss\/main.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/event.js" : {
+      "output" : "bower_components\/jquery\/src\/event.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/scrollspy.js" : {
+      "output" : "components\/javascripts\/bootstrap\/scrollspy.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/defaultDisplay.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/defaultDisplay.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/attributes.js" : {
+      "output" : "bower_components\/jquery\/src\/attributes.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax\/jsonp.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax\/jsonp.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax\/load.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax\/load.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax\/script.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax\/script.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/dimensions.js" : {
+      "output" : "bower_components\/jquery\/src\/dimensions.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_progress-bars.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_progress-bars.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_close.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_close.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/collapse.js" : {
+      "output" : "components\/javascripts\/bootstrap\/collapse.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/core\/ready.js" : {
+      "output" : "bower_components\/jquery\/src\/core\/ready.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js" : {
+      "output" : "bower_components\/jquery\/src\/traversing\/var\/rneedsContext.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/callbacks.js" : {
+      "output" : "bower_components\/jquery\/src\/callbacks.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_text-emphasis.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_text-emphasis.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/curCSS.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/curCSS.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_size.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_size.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "stylesheets\/scss\/_grid.scss" : {
+      "output" : "stylesheets\/scss\/_grid.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax\/var\/rquery.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax\/var\/rquery.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_thumbnails.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_thumbnails.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/var\/rnumnonpx.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/var\/rnumnonpx.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_center-block.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_center-block.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "js\/min\/waypoints-min.js" : {
+      "output" : "js\/min\/waypoints-min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/modal.js" : {
+      "output" : "components\/javascripts\/bootstrap\/modal.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css.js" : {
+      "output" : "bower_components\/jquery\/src\/css.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/indexOf.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/indexOf.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_tables.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_tables.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax\/parseXML.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax\/parseXML.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/swap.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/swap.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_popovers.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_popovers.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "sidebar\/classie.js" : {
+      "output" : "sidebar\/classie.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_list-group.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_list-group.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap.js" : {
+      "output" : "components\/javascripts\/bootstrap.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_clearfix.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_clearfix.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/ajax.js" : {
+      "output" : "bower_components\/jquery\/src\/ajax.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/wrap.js" : {
+      "output" : "bower_components\/jquery\/src\/wrap.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/manipulation\/support.js" : {
+      "output" : "bower_components\/jquery\/src\/manipulation\/support.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_buttons.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_buttons.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/var\/getStyles.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/var\/getStyles.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_code.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_code.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/intro.js" : {
+      "output" : "bower_components\/jquery\/src\/intro.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/data\/var\/data_priv.js" : {
+      "output" : "bower_components\/jquery\/src\/data\/var\/data_priv.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/strundefined.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/strundefined.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_background-variant.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_background-variant.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_pagination.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_pagination.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_theme.scss" : {
+      "imports" : [
+        "components\/stylesheets\/bootstrap\/_variables.scss",
+        "components\/stylesheets\/bootstrap\/_mixins.scss"
+      ],
+      "output" : "components\/stylesheets\/bootstrap\/_theme.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/push.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/push.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/mixins\/_table-row.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/mixins\/_table-row.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "sidebar\/modernizr.custom.js" : {
+      "output" : "sidebar\/modernizr.custom.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/queue.js" : {
+      "output" : "bower_components\/jquery\/src\/queue.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/exports\/global.js" : {
+      "output" : "bower_components\/jquery\/src\/exports\/global.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/slice.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/slice.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_list-group.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_list-group.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/addGetHookIf.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/addGetHookIf.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/css\/var\/rmargin.js" : {
+      "output" : "bower_components\/jquery\/src\/css\/var\/rmargin.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/data.js" : {
+      "output" : "bower_components\/jquery\/src\/data.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/event\/support.js" : {
+      "output" : "bower_components\/jquery\/src\/event\/support.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/var\/class2type.js" : {
+      "output" : "bower_components\/jquery\/src\/var\/class2type.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_labels.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_labels.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/carousel.js" : {
+      "output" : "components\/javascripts\/bootstrap\/carousel.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "js\/jquery-1.11.1.min.js" : {
+      "output" : "js\/jquery-1.11.1.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_pager.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_pager.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/popover.js" : {
+      "output" : "components\/javascripts\/bootstrap\/popover.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/jquery.js" : {
+      "output" : "bower_components\/jquery\/src\/jquery.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js" : {
+      "output" : "bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/stylesheets\/bootstrap\/_wells.scss" : {
+      "output" : "components\/stylesheets\/bootstrap\/_wells.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "js\/min\/waypoint-init-min.js" : {
+      "output" : "js\/min\/waypoint-init-min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "components\/javascripts\/bootstrap\/tooltip.js" : {
+      "output" : "components\/javascripts\/bootstrap\/tooltip.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  },
+  "flows" : {
+    "stylus" : {
+      "output" : "*.css",
+      "stylus" : "00000000-0000-0000-0000-000000000000"
+    },
+    "sass" : {
+      "sass" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "coffee" : {
+      "coffee" : "00000000-0000-0000-0000-000000000000",
+      "jshint" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.js",
+      "uglify" : "00000000-0000-0000-0000-000000000000"
+    },
+    "jinja" : {
+      "jinja" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*"
+    },
+    "less" : {
+      "less" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "css" : {
+      "output" : "*.out.css"
+    },
+    "js" : {
+      "output" : "*.out.js",
+      "uglify" : "00000000-0000-0000-0000-000000000000",
+      "jshint" : "00000000-0000-0000-0000-000000000000"
+    }
+  },
+  "profiles" : {
+    "stylus" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "mediaquery" : false,
+        "name" : "Default Stylus Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "sass" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Sass Profile",
+        "style" : "compressed",
+        "debug" : 0
+      }
+    },
+    "jshint" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default JSHint Profile",
+        "options" : [
+          "undef",
+          "unused",
+          "bitwise",
+          "curly",
+          "eqeqeq",
+          "latedef",
+          "newcap",
+          "noarg",
+          "nonew",
+          "trailing",
+          "browser",
+          "jquery"
+        ],
+        "globals" : ""
+      }
+    },
+    "coffee" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default CoffeeScript Profile",
+        "bare" : false
+      }
+    },
+    "less" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "imports" : false,
+        "mediaquery" : false,
+        "name" : "Default Less Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "jinja" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Jinja Profile",
+        "autoescape" : false
+      }
+    },
+    "uglify" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default UglifyJS Profile",
+        "options" : [
+          "--mangle",
+          "--compress",
+          "beautify"
+        ]
+      }
+    }
+  },
+  "version" : 10100
+}

@@ -13,14 +13,14 @@
 					<ul>
 						<li><a href="#">Jesse</a></li>
 						<li><a href="#profile">Profile</a></li>
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Skills</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
 			
-			<div class="btn">
+			<div class="nav-trigger">
 				<button data-effect="effect" id="trigger-slide">
 				  <span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -33,104 +33,159 @@
 				<span class='jesse'>I'm Jesse.</span><br />
 				<span class='make'>I make things.</span><br />
 				<span class='websites'>Like websites.</span><br />
-				<a href='#'><img src="images/arrow_down.svg" alt="arrow pointing down" /></a>
+				<a href='#profile'><img src="images/arrow_down.svg" alt="arrow pointing down" /></a>
 			</header>
-						
-			<div class="container profile">
-				<a name="profile"></a>
-							<h2>Profile<span class="red">.</span></h2>
-							<p>Hi.  I'm Jesse Stephenson, a 25 year old student currently in my last year of university (yay!).  I have learnt many things during my studies, including discovering what I want to do.  Design and Make websites.  Not just any websites though.  Websites that are easy to view, convey their information well, and relax the person viewing them.</p>
-							<p><span class="hl">I have a passion for making beautiful things that help people.</span>  Web design allows me do this.  I can craft a website that gives the viewer what they are looking for, and conveys the message the client is trying to send.  I have found no better way of creatively helping others than through web design.</p>
-							<p>I really enjoy the creative experience that goes with making a website.  From the hand drawn sketch, to the fullsize mock up , through to the final execution in code, all of these stages are interesting and hold their own individual appeal.  And the interaction with the customer to help them realise their goal is fantastic.</p>
-							<p><span class="hl">That is why I make websites.</span></p>
-						</div>
+
+			<a name="profile"></a>	
+			<div class="container profile clearfix">
+				<h2>Profile<span class="red">.</span></h2>
+				
+				<div class="right">
+					<p>Hi.  I'm Jesse Stephenson, a 25 year old student currently in my last year of university (yay!).  I have learnt many things during my studies, including discovering what I want to do.  Design and Make websites.  Not just any websites though.  Websites that are easy to view, convey their information well, and relax the person viewing them.</p>
+					<p><span class="hl">I have a passion for making beautiful things that help people.</span>  Web design allows me do this.  I can craft a website that gives the viewer what they are looking for, and conveys the message the client is trying to send.  I have found no better way of creatively helping others than through web design.</p>
+					<p>I really enjoy the creative experience that goes with making a website.  From the hand drawn sketch, to the fullsize mock up , through to the final execution in code, all of these stages are interesting and hold their own individual appeal.  And the interaction with the customer to help them realise their goal is fantastic.</p>
+					<p><span class="hl">That is why I make websites.</span></p>
+				</div>
+
+				<div class="left hidden-xs">
+					<p>I believe in simplicity.</p><p>Everything should exist for a reason.</p><p>Everything has a message.</p>
+					<img src="images/paper.svg" alt="Line drawing of a paper" />
+				</div>
+			</div>
 			<!-- end profile -->
 			
+			<a name="work"></a>
 			<div class="work">
-							<div class="container">
-								<h2>Work<span class="red">.</span></h2>
-								<div class="row">
-									<div class="lg-3">
-										<img src="images/mp_small.jpg" alt="Matt Powers">
-										<h3>Matt Powers</h3>
-										<a href="#"><button>View Site</button></a>
-										<p>This is a recently finished website built on the Bootstrap 3 framework. It was originally developed as a teaching aid for a Victoria University course I was teaching, to showcase what students could achieve with basic HTML and CSS.  It was then redesigned as the responsive website seen today.</p>
-									</div>
-									<!-- end lg-3 -->
-									<div class="lg-3 side">
-										<img src="images/side_small.png" alt="Sidebar">
-										<h3>Sidebar</h3>
-										<a href="#"><button>View Site</button></a>
-										<p>A very simple website, Sidebar was developed to test out the Codrops sidebar JavaScript.  This test was focused on achieving good performance on mobile and desktop, as well as increasing skill in an area often used on projects.  Photos courtesy of <a href="http://unsplash.com">Unsplash</a>.</p>
-									</div>
-									<!-- end lg-3 -->
-									<div class="lg-3 zodiac">
-										<img src="images/cz.png" alt="Sidebar">
-										<h3>Chinese Zodiac</h3>
-										<a href="#"><button>View Site</button></a>
-										<p>This was developed as an assignment for a 300 level Victoria University course specialising in advanced web development.  Built using HTML, CSS, PHP, and a MySQL database this website showcases ability in all these skill areas.  Chinese Zodiac was given a mark of A+ (100%), a perfect grade.</p>
-									</div>
-									<!-- end lg-3 -->
-								</div> 
-								<!-- end row -->
+				<div class="container">
+					<h2>Work<span class="red">.</span></h2>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="mp">
+								<img src="images/mp_small.jpg" alt="Matt Powers">
+								<h3>Matt Powers</h3>
+								<a href="#"><button>View Site</button></a>
+								<p>This is a recently finished website built on the Bootstrap 3 framework. It was originally developed as a teaching aid for a Victoria University course I was teaching, to showcase what students could achieve with basic HTML and CSS.  It was then redesigned as the responsive website seen today.</p>
 							</div>
-							<!-- end container -->
 						</div>
+						<div class="col-md-4">
+							<div class="side">
+								<img src="images/side_small.png" alt="Sidebar">
+								<h3>Sidebar</h3>
+								<a href="#"><button>View Site</button></a>
+								<p>A very simple website, Sidebar was developed to test out the Codrops sidebar JavaScript.  This test was focused on achieving good performance on mobile and desktop, as well as increasing skill in an area often used on projects.  Photos courtesy of <a href="http://unsplash.com">Unsplash</a>.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="zodiac">
+								<img src="images/cz.png" alt="Sidebar">
+								<h3>Chinese Zodiac</h3>
+								<a href="#"><button>View Site</button></a>
+								<p>This was developed as an assignment for a 300 level Victoria University course specialising in advanced web development.  Built using HTML, CSS, PHP, and a MySQL database this website showcases ability in all these skill areas.  Chinese Zodiac was given a mark of A+ (100%), a perfect grade.</p>
+							</div>
+						</div>
+					</div> 
+					<!-- end row -->
+				</div>
+				<!-- end container -->
+			</div>
 			<!-- end work -->
 			
+			<a name="skills"></a>
 			<div class="container skills">
 				<h2>Skills<span class="red">.</span></h2>
-				<h3>HTML</h3>
+				<h4>HTML</h4>
 				<div class="skill-bar">
 					<span></span>
 				</div>
 				<label>Novice</label>
+				<label class="hidden-xs">Proficient</label>
 				<label>Adept</label>
+				<label class="hidden-xs">Expert</label>
 				<label>Master</label>
 				
-				<h3>CSS</h3>
+				<h4>CSS</h4>
 				<div class="skill-bar">
 					<span></span>
 				</div>
 				<label>Novice</label>
+				<label class="hidden-xs">Proficient</label>
 				<label>Adept</label>
+				<label class="hidden-xs">Expert</label>
 				<label>Master</label>
 				
-				<h3>PHP</h3>
+				<h4>PHP</h4>
 				<div class="skill-bar">
 					<span></span>
 				</div>
 				<label>Novice</label>
+				<label class="hidden-xs">Proficient</label>
 				<label>Adept</label>
+				<label class="hidden-xs">Expert</label>
 				<label>Master</label>
 				
-				<h3>MySQL</h3>
+				<h4>MySQL</h4>
 				<div class="skill-bar">
 					<span></span>
 				</div>
 				<label>Novice</label>
+				<label class="hidden-xs">Proficient</label>
 				<label>Adept</label>
+				<label class="hidden-xs">Expert</label>
 				<label>Master</label>
 				
-				<h3>JavaScript</h3>
+				<h4>JavaScript</h4>
 				<div class="skill-bar">
 					<span></span>
 				</div>
 				<label>Novice</label>
+				<label class="hidden-xs">Proficient</label>
 				<label>Adept</label>
+				<label class="hidden-xs">Expert</label>
 				<label>Master</label>
 				
-				<h3>jQuery</h3>
+				<h4>jQuery</h4>
 				<div class="skill-bar">
 					<span></span>
 				</div>
 				<label>Novice</label>
+				<label class="hidden-xs">Proficient</label>
 				<label>Adept</label>
+				<label class="hidden-xs">Expert</label>
 				<label>Master</label>
 			</div>
 			<!-- end skills -->
 			
-			
+			<a name="contact"></a>
+			<div class="contact">
+				<div class="container">
+					<h2>Contact<span class="red">.</span></h2>
+					<img src="images/phone@2x.svg" alt="Mobile Phone" />
+					<p>Call me on 0278169704, I’d love to have a chat.</p>
+					<p>I’m available anytime.  Except for the times that I’m not.  During those times please leave a message and I will return  your call at the soonest opportunity.<span class="sm-text">(NZ callers only I’m afraid)</span></p>
+					<img src="images/plane@2x.svg" alt="Paper Plane" />
+					<p>If you're feeling super cool then go ahead and send me a paper plane (a.k.a. email).  I check them at least 900 times a day and will respond very quickly.</p>
+					<p>Please use the form below to contact me directly or get in touch at <a href="mailto:jesse@jessestephenson.me">jesse@jessestephenson.me</a>.</p>
+					
+					<form name="message">
+						<label>Name</label><br />
+						<input type="text"><br /><br />
+						<label>Email</label><br />
+						<input type="email"><br /><br />
+						<label>Message</label><br />
+						<textarea></textarea><br /><br />
+						<button type="submit">Submit</button>
+					</form>
+
+				</div>
+				<!-- end container -->			
+			</div>
+			<!-- end contact -->
+
+			<footer>
+				<p>Made with Design<br class="visible-xs" /> 
+©2014 Jesse Stephenson</p>
+				<a href="#"><button>Back to Top</button></a>
+			</footer>
 
 	<script src="sidebar/modernizr.custom.js"></script>
 	<!--<script src="sidebar/classie.js"></script>-->
@@ -144,7 +199,7 @@
 				}, {offset: '90%'}
 			);
 				
-	    $('.btn').click(function() {
+	    $('.nav-trigger').click(function() {
 		    $('.nav').toggleClass('open');
 	    });
 	    $('.nav').click(function() {
